@@ -1,24 +1,36 @@
 html{
+  //set font for page as helvetica;
   font-family: helvetica;
 }
+
 h1{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+  //sets h1 background image as pattern.jpeg as per requirements. relative path updated to;
+  //  '..' which drops to resources directory from css directory, then '/img' directory;
+  // then selects 'pattern.jpeg';
+  background-image: url("../img/pattern.jpeg");
+  //sets h1 font size as 100px as per requirements;
   font-size: 100px;
-  font-weight: bold;
+  // sets h1 color as khaki as per requirements;
   color: khaki;
+  // aligns h1 text as center as per requirements;
   text-align: center;
 }
 h2{
+  // sets h2 font size as 32px;
   font-size: 32px;
-  font-weight: bold;
+  // sets h2 font color as white;
   color: white;
 }
+
 #brushes h2{
+  // sets color for brushes element if h2;
   background-color: mediumspringgreen;
 }
 #frames h2{
+  // sets color for frames element if h2;
   background-color: lightcoral;
 }
 #paint h2{
+  // sets color for paint element if h2;
   background-color: skyblue;
 }
